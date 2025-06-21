@@ -1,0 +1,317 @@
+.backcolor_nav{
+    background-color:#F6F4DB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.font_nav{
+    color: #4a91e1;
+    font-size: 23px;
+    text-align: center;
+}
+
+.nav_button{
+    background-color: #f15e2b;
+    color: #F6F4DB;
+}
+
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+
+.yeseva {
+    font-family: "Yeseva One", serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+.nunito_copyright{
+    font-size: 10px;
+}
+
+.backcolor_footer{
+    background-color: #F6F4DB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.font_footerh3{
+    color: #4a91e1;
+}
+
+.font_footercuerpo{
+    color: #4a91e1;
+    font-size: 17px;
+}
+
+.iconos_footer{
+    color: #4a91e1;
+    font-size: 40px;
+}
+
+.iconos_footerdos{
+    color: #4a91e1;
+    font-size: 60px;
+    margin-right: 10px;
+}
+
+.font_footercuerpodos{
+    color: #4a91e1;
+    font-size: 18px;
+}
+
+#fondo_principalteam{
+    background-image: url("../img/fondo_team.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#imagen_doggieteam{
+    background-image: url(../img/prueba_seven.jpg);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    
+}
+
+.h1_titulo{
+    font-size: 130px;
+    color:#F6F4DB;
+    padding-top: 95px;
+    opacity: 100%;
+}
+
+#quien_cuida{
+    background-color:#4a91e1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.nunito_cuida{
+    color:#F6F4DB;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.yeseva_cuida{
+    color: #F6F4DB;
+    font-size: 60px;
+    text-align: center;
+}
+
+.yeseva_h2span{
+    color: #f8d44f;
+    font-size: 60px;
+    text-align: center;
+}
+
+#nuestro_team{
+    background-color:#F6F4DB;
+    opacity: 93% ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    
+}
+
+.yeseva_team{
+    color:#4a91e1;
+    font-size: 60px;
+    text-align: center;
+}
+
+.nunito_team{
+    color: #4a91e1;;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cards_team{
+    background-color:#F6F4DB;
+    border-radius: 30px ;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      min-height: 40rem;
+}
+
+
+
+.images_cards{
+    width: 330px;
+    image-resolution: 300;
+    height: 320px;
+    object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 38px;
+    border-radius: 80px;
+    
+}
+
+.my_teamimg{
+    border-radius: 45px;
+    width: 600px;
+    height: 490px;
+    
+    
+}
+
+.gap_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.h4_team{
+    color: #f15e2b;
+    text-align: center;
+}
+.text_card{
+    font-size: 14px;
+    color:#4a91e1;
+    text-align: justify;
+    padding: 0;
+}
+
+.list_cards{
+    background-color: #F6F4DB;
+    display: flex;
+    justify-content: space-between; 
+    
+    width: 100%;           
+    max-width: 400px; 
+    padding: 16px;
+}
+
+.p_listcards{
+    font-size: 14px;
+    color: #4a91e1;
+    text-align: right;
+
+}
+.pstrong_listcards{
+    font-size: 15px;
+    color: #f15e2b;
+    text-align: left;
+
+}
+
+.razas_perrosimg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    image-resolution: 300;
+    margin-left: 16px;
+}
+
+.razas_div{
+    display: block;
+    margin-bottom: 8px;
+}
+
+#trabajo_equipo{
+    background-color: #f15e2b;
+    opacity: 93% ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+
+}
+
+.huella_trabajoteam{
+    color: #f8d44f;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.imagen_carrousel {
+    height: 600px;         
+    width: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+    display: block;
+}
+
+.carrousel {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.h3_yeseva{
+    color:#f8d44f; 
+    font-size: 40px;
+    opacity: 100%;
+}
+
+
+.nunito_carousel{
+    color:#ffffff;
+    font-size: 19px;
+    opacity: 100%;
+}
+
+.nunito_teamwork{
+    color:#F6F4DB;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p_listcardsraza{
+    font-size: 14px;
+    color: #4a91e1;
+    text-align: right;
+    padding-left: 50px;
+
+}
+
+#fondo_principalcitas{
+    background-image: url("../img/fondo_citas.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#imagen_doggiecitas{
+    background-image: url(../img/doggie_citas.jpg);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    
+}
