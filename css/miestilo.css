@@ -299,6 +299,8 @@
     padding-bottom: 40px;
 }
 
+/* ATTRIBUTOS DE CITAS */
+
 #imagen_doggiecitas{
     background-image: url(../img/doggie_citas.jpg);
     padding-top: 130px;
@@ -323,13 +325,13 @@
 }
 
 .huella_citas{
-    color: #f15e2b;
+    color: #4B83D3;
     font-size: 60px;
     text-align: center;
 }
 
 .yeseva_citas{
-    color: #f15e2b;
+    color: #4B83D3;
     font-size: 60px;
     text-align: center;
 }
@@ -345,10 +347,17 @@
     color: #f15e2b;
 }
 
+
+/* ATTRIBUTOS DE SERVICIOS */
+/*servicioooos nelly*/
+
 #fondo_principalservicios{
     background-image: url("../img/fondo_citas.png");
     padding-top: 40px;
     padding-bottom: 40px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .h1_servicios{
@@ -362,12 +371,21 @@
     color:#4a91e1;
     font-size: 45px;
     text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.2;
 }
 
 .nunito_servicios{
     color: #4a91e1;;
     font-size: 20px;
-    text-align:justify;
+
+}
+
+.lista_servicios{
+    color: #4a91e1;;
+    font-size: 15px;
+    
 }
 
 #imagen_servicios{
@@ -389,15 +407,41 @@
     background: #F6F4DB;
     border-radius: 30px;
     box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     padding-left: 24px; 
     padding-right: 24px;
-    width: 650px;
-    height: 480px;
     gap: 26px;
     box-sizing: border-box;
     border: 4px solid #4B83D3;
+    margin-bottom: 45px;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 0 auto 40px auto;
+  }
+
+  .servicio_cardreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #F6F4DB;
+    border-radius: 30px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 24px; 
+    padding-right: 24px;
+    gap: 26px;
+    box-sizing: border-box;
+    border: 4px solid #4B83D3;
+    margin-bottom: 45px;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 0 auto 40px auto;
   }
   
   .servicio-img img {
@@ -408,6 +452,19 @@
     display: block;
     margin: 0 auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .servicio-info {
+    flex: 1;                          
+    max-width: 100%;                 
+    padding: 0;                       
+    margin: 0;                        
+    overflow-wrap: break-word;       
+    word-break: break-word;          
+    display: flex;
+    flex-direction: column;          
+    justify-content: center;         
+    gap: 8px;
   }
 
 /*ATTRIBUTOS DE PÁGINA DE INICIO - SUSAN ANDINO :)*/
