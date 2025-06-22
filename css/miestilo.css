@@ -84,7 +84,6 @@
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 30px;
-
 }
 
 .h1_titulo{
@@ -557,7 +556,8 @@
 .titulo_quienessomos{
     color: white;
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
+    padding-top: 160px;
 }
 
 .subtitulos_myv{
@@ -581,7 +581,7 @@
 }
 
 .containerquienessomos{
-    background-color: #4c92e2;
+    background-color: #77c0e2;
     border-radius: 30px ;
     width: 40rem;  
     padding-top: 30px;
@@ -592,9 +592,21 @@
     margin-right: 20px;
 }
 .containers_myv{
-    background-color: #77c0e2;
+    background-color: #4c92e2;
     border-radius: 30px ;
     width: 23rem;    
+}
+
+#imagen_quienessomos{
+    background-image: url(../img/imagen_quienes_somos_.png);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
 }
 
 .paddingtexto{
@@ -607,12 +619,6 @@
 
 .paddingvision{
     padding-bottom: 30px;
-}
-
-.huellaquienessomos{
-    color: white;
-    font-size: 60px;
-    text-align: center;
 }
 
 .huella2_quienessomos{
