@@ -316,32 +316,84 @@
     
 }
 
-#agendacitas{
-    background-color: #F6F4DB;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 30px;
-}
+/*ATTRIBUTOS DE PÁGINA DE INICIO - SUSAN ANDINO :)*/
 
-.huella_citas{
-    color: #f15e2b;
-    font-size: 60px;
-    text-align: center;
-}
-
-.yeseva_citas{
-    color: #f15e2b;
-    font-size: 60px;
-    text-align: center;
-}
-
-#fondo_principalservicios{
-    background-image: url("../img/fondo_citas.png");
+#fondo_principalinicio{
+    background-image: url("../img/FotosIndex/FondoPatronInicio.png");
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+#imagen_doggieinicio{
+    background-image: url(../img/FotosIndex/PerritoInicial.png);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    
+}
+
+#separadorburb{
+    background-image: url("../img/FotosIndex/bubbles.png");
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+.titulo_burb{
+    font-size: 85px;
+    color:#ffffff;
+    padding-top: 155px;
+    opacity: 100%;
+}
+
+.titulo_burb2{
+    font-size: 70px;
+    color:#ffffff;
+    padding-top: 155px;
+    opacity: 100%;
+}
+
+#descrip_inicio{
+    background-color:#9addfc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.subtitulo_bubbles{
+    color: #f17f59;
+    text-align: center;
+}
+
+#burbu_atajos{
+    margin-top: 50px;
+}
+
+.licateg_inicio{
+    color: #4a5ee1;
+    font-weight: bold;
+    font-size: large;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.lirelle_inicio{
+    color: #4a5ee1;
+    font-weight: bolder;
+    font-size:medium;
+    margin-bottom: 30px;
+}
+
+.iconos_inicio{
+    font-size: larger;
+    color: #4a5ee1;
+}
+
+/*ATTRIBUTOS DE PÁGINA DE INICIO -FINALIZADA- SUSAN ANDINO :)*/
