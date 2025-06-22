@@ -158,6 +158,8 @@
       min-height: 40rem;
 }
 
+
+
 .images_cards{
     width: 330px;
     image-resolution: 300;
@@ -174,7 +176,9 @@
 .my_teamimg{
     border-radius: 45px;
     width: 600px;
-    height: 490px;  
+    height: 490px;
+    
+    
 }
 
 .gap_column{
@@ -299,8 +303,6 @@
     padding-bottom: 40px;
 }
 
-/* ATTRIBUTOS DE CITAS */
-
 #imagen_doggiecitas{
     background-image: url(../img/doggie_citas.jpg);
     padding-top: 130px;
@@ -310,7 +312,8 @@
     height: 600px;
     margin-left: 50px;
     margin-right: 50px;
-    border-radius: 30px; 
+    border-radius: 30px;
+    
 }
 
 #agendacitas{
@@ -325,227 +328,93 @@
 }
 
 .huella_citas{
-    color: #4B83D3;
+    color: #f15e2b;
     font-size: 60px;
     text-align: center;
 }
 
 .yeseva_citas{
-    color: #4B83D3;
+    color: #f15e2b;
     font-size: 60px;
     text-align: center;
 }
 
-.nunito_citas{
-    color: #4a91e1;
+#fondo_principalservicios{
+    background-image: url("../img/");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*ATRIBUTOS DE PAGINA DE QUIENES SOMOS - ABRIL GIRON :)*/
+
+#fondo_1quienessomos{
+    background-image: url("../img/fondo_quienessomos.png");
+}
+
+.titulo_quienessomos{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.subtitulos_myv{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.letracolorblanco{
+    color: white;
     font-size: 20px;
+    opacity: 100%;
+}
+
+.alineartexto{
     text-align: justify;
 }
 
-.agendar_button{
-    background-color: #f8d44f;
-    color: #f15e2b;
-}
-
-
-/* ATTRIBUTOS DE SERVICIOS */
-/*servicioooos nelly*/
-
-#fondo_principalservicios{
-    background-image: url("../img/fondo_citas.png");
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-.h1_servicios{
-    font-size: 130px;
-    color:#F6F4DB;
-    padding-top: 95px;
-    opacity: 100%;
-    text-align: center;
-}
-
-.yeseva_servicios{
-    color:#4a91e1;
-    font-size: 45px;
-    text-align: center;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.2;
-}
-
-.nunito_servicios{
-    color: #4a91e1;;
-    font-size: 20px;
-
-}
-
-.lista_servicios{
-    color: #4a91e1;;
-    font-size: 15px;
-    
-}
-
-#imagen_servicios{
-    background-image: url(../img/herramientas.png);
-    padding-top: 130px;
-    padding-bottom: 130px;
-    height: 630px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 30px;
-}
-
-.servicio_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #F6F4DB;
-    border-radius: 30px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-    padding-top: 35px;
-    padding-bottom: 35px;
-    padding-left: 24px; 
-    padding-right: 24px;
-    gap: 26px;
-    box-sizing: border-box;
-    border: 4px solid #4B83D3;
-    margin-bottom: 45px;
-    width: 100%;
-    max-width: 800px;
-    flex-wrap: wrap;
-    overflow: hidden;
-    margin: 0 auto 40px auto;
-  }
-
-  .servicio_cardreverse {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background: #F6F4DB;
-    border-radius: 30px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-    padding-top: 35px;
-    padding-bottom: 35px;
-    padding-left: 24px; 
-    padding-right: 24px;
-    gap: 26px;
-    box-sizing: border-box;
-    border: 4px solid #4B83D3;
-    margin-bottom: 45px;
-    width: 100%;
-    max-width: 800px;
-    flex-wrap: wrap;
-    overflow: hidden;
-    margin: 0 auto 40px auto;
-  }
-  
-  .servicio-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .servicio-info {
-    flex: 1;                          
-    max-width: 100%;                 
-    padding: 0;                       
-    margin: 0;                        
-    overflow-wrap: break-word;       
-    word-break: break-word;          
-    display: flex;
-    flex-direction: column;          
-    justify-content: center;         
-    gap: 8px;
-  }
-
-/*ATTRIBUTOS DE PÁGINA DE INICIO - SUSAN ANDINO :)*/
-
-#fondo_principalinicio{
-    background-image: url("../img/FotosIndex/FondoPatronInicio.png");
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#imagen_doggieinicio{
-    background-image: url(../img/FotosIndex/PerritoInicial.png);
-    padding-top: 130px;
-    padding-bottom: 130px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 600px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 30px;
-    
-}
-
-#separadorburb{
-    background-image: url("../img/FotosIndex/bubbles.png");
-    padding-top: 40px;
-    margin-bottom: 0px;
-}
-
-.titulo_burb{
-    font-size: 85px;
-    color:#ffffff;
-    padding-top: 155px;
-    opacity: 100%;
-}
-
-.titulo_burb2{
-    font-size: 70px;
-    color:#ffffff;
-    padding-top: 155px;
-    opacity: 100%;
-}
-
-#descrip_inicio{
-    background-color:#9addfc;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 15px;
+.paddingfotospa{
     padding-left: 15px;
 }
 
-.subtitulo_bubbles{
-    color: #f17f59;
+.containerquienessomos{
+    background-color: #4c92e2;
+    border-radius: 30px ;
+    width: 40rem;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.containers_myv{
+    background-color: #77c0e2;
+    border-radius: 30px ;
+    width: 23rem;    
+}
+
+.paddingtexto{
+    padding: 20px;
+}
+
+.padding_perritotoalla{
+    padding-top: 50;
+}
+
+.paddingvision{
+    padding-bottom: 30px;
+}
+
+.huellaquienessomos{
+    color: white;
+    font-size: 60px;
     text-align: center;
 }
 
-#burbu_atajos{
-    margin-top: 50px;
+.huella2_quienessomos{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
 }
-
-.licateg_inicio{
-    color: #4a5ee1;
-    font-weight: bold;
-    font-size: large;
-}
-
-.centrado{
-    text-align: center;
-}
-
-.lirelle_inicio{
-    color: #4a5ee1;
-    font-weight: bolder;
-    font-size:medium;
-    margin-bottom: 30px;
-}
-
-.iconos_inicio{
-    font-size: larger;
-    color: #4a5ee1;
-}
-
-/*ATTRIBUTOS DE PÁGINA DE INICIO -FINALIZADA- SUSAN ANDINO :)*/
