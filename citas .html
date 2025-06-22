@@ -81,7 +81,61 @@
           <div>
             <h2 class="yeseva_citas yeseva" > <strong>Agenda la cita para tu peludo  <span class="huella_citas yeseva"><i class="fa-solid fa-paw"></i></span></strong></h2>
             <br>
+          </div>
+        </div>
+
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-6">
+                <label for="nombre" class="form-label nunito">Nombre del dueño</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+              </div>
+              <div class="col-6">
+                <label for="telefono" class="form-label nunito">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col-6">
+                <label for="nombre_peludo" class="form-label nunito">Nombre del peludo</label>
+                <input type="text" class="form-control" id="nombre_peludo" placeholder="Ingrese el nombre de su mascota">
+              </div>
+              <div class="col-6">
+                <label for="tipo_mascota" class="form-label nunito">Tipo de mascota</label>
+                <select class="form-select" id="tipo_mascota">
+                  <option selected>Seleccione el tipo de mascota</option>
+                  <option value="perro">Perro</option>
+                  <option value="gato">Gato</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col-6">
+                <label for="fecha_cita" class="form-label nunito">Fecha de la cita</label>
+                <input type="date" class="form-control" id="fecha_cita">
+              </div>
+              <div class="col-6">
+                <label for="hora_cita" class="form-label nunito">Hora de la cita</label>
+                <input type="time" class="form-control" id="hora_cita">
+              </div>
+            </div>
+
+            <br>
+
+            <button type="submit" class="btn btn-primary nunito">Enviar Cita</button>
+          </form>
+        </div>
       </section>
+
+    
     </main>
 
     </footer>
