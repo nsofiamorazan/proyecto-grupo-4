@@ -158,8 +158,6 @@
       min-height: 40rem;
 }
 
-
-
 .images_cards{
     width: 330px;
     image-resolution: 300;
@@ -176,9 +174,7 @@
 .my_teamimg{
     border-radius: 45px;
     width: 600px;
-    height: 490px;
-    
-    
+    height: 490px;  
 }
 
 .gap_column{
@@ -312,9 +308,107 @@
     height: 600px;
     margin-left: 50px;
     margin-right: 50px;
-    border-radius: 30px;
-    
+    border-radius: 30px; 
 }
+
+#agendacitas{
+    background-color: #F6F4DB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.huella_citas{
+    color: #f15e2b;
+    font-size: 60px;
+    text-align: center;
+}
+
+.yeseva_citas{
+    color: #f15e2b;
+    font-size: 60px;
+    text-align: center;
+}
+
+.nunito_citas{
+    color: #4a91e1;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.agendar_button{
+    background-color: #f8d44f;
+    color: #f15e2b;
+}
+
+#fondo_principalservicios{
+    background-image: url("../img/fondo_citas.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h1_servicios{
+    font-size: 130px;
+    color:#F6F4DB;
+    padding-top: 95px;
+    opacity: 100%;
+}
+
+.yeseva_servicios{
+    color:#4a91e1;
+    font-size: 45px;
+    text-align: center;
+}
+
+.nunito_servicios{
+    color: #4a91e1;;
+    font-size: 20px;
+    text-align:justify;
+}
+
+#imagen_servicios{
+    background-image: url(../img/herramientas.png);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.servicio_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F6F4DB;
+    border-radius: 30px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px; 
+    padding-right: 24px;
+    width: 650px;
+    height: 480px;
+    gap: 26px;
+    box-sizing: border-box;
+    border: 4px solid #4B83D3;
+  }
+  
+  .servicio-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 
 /*ATTRIBUTOS DE PÁGINA DE INICIO - SUSAN ANDINO :)*/
 
