@@ -88,11 +88,11 @@
           <form>
             <div class="row">
               <div class="col-6">
-                <label for="nombre" class="form-label nunito">Nombre del dueño</label>
+                <label for="nombre" class="form-label nunito nunito_citas">Nombre del dueño</label>
                 <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
               </div>
               <div class="col-6">
-                <label for="telefono" class="form-label nunito">Teléfono</label>
+                <label for="telefono" class="form-label nunito nunito_citas">Teléfono</label>
                 <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
               </div>
             </div>
@@ -101,16 +101,16 @@
 
             <div class="row">
               <div class="col-6">
-                <label for="nombre_peludo" class="form-label nunito">Nombre del peludo</label>
+                <label for="nombre_peludo" class="form-label nunito nunito_citas">Nombre del peludo</label>
                 <input type="text" class="form-control" id="nombre_peludo" placeholder="Ingrese el nombre de su mascota">
               </div>
               <div class="col-6">
-                <label for="tipo_mascota" class="form-label nunito">Tipo de mascota</label>
+                <label for="tipo_mascota" class="form-label nunito nunito_citas">Tamaño del peludo</label>
                 <select class="form-select" id="tipo_mascota">
-                  <option selected>Seleccione el tipo de mascota</option>
-                  <option value="perro">Perro</option>
-                  <option value="gato">Gato</option>
-                  <option value="otro">Otro</option>
+                  <option selected>Selecciona el tamaño del peludo</option>
+                  <option value="pequeno">Pequeño</option>
+                  <option value="mediano">Mediano</option>
+                  <option value="grande">Grande</option>
                 </select>
               </div>
             </div>
@@ -119,18 +119,37 @@
 
             <div class="row">
               <div class="col-6">
-                <label for="fecha_cita" class="form-label nunito">Fecha de la cita</label>
+                <label for="fecha_cita" class="form-label nunito nunito_citas">Fecha de la cita</label>
                 <input type="date" class="form-control" id="fecha_cita">
               </div>
               <div class="col-6">
-                <label for="hora_cita" class="form-label nunito">Hora de la cita</label>
+                <label for="hora_cita" class="form-label nunito nunito_citas">Hora de la cita</label>
                 <input type="time" class="form-control" id="hora_cita">
               </div>
             </div>
 
             <br>
 
-            <button type="submit" class="btn btn-primary nunito">Enviar Cita</button>
+            <div class="row">
+              <div class="col-6">
+                <label for="tipo_mascota" class="form-label nunito nunito_citas">Servicio</label>
+                <select class="form-select" id="tipo_mascota">
+                  <option selected>Selecciona el tipo de servicio</option>
+                  <option value="burbu_bano">Burbu-Baño</option>
+                  <option value="corte_guau">Corte-Guau</option>
+                  <option value="paticura_feliz">Patucira Feliz</option>
+                  <option value="mimo_dermapuo">Mimo-Dermapup</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label for="nombre_peludo" class="form-label nunito nunito_citas">¿Tiene alergias o condiciones especiales?</label>
+                <input type="text" class="form-control" id="alergias_condiciones" placeholder="Indica si tu peludo tiene alergias o condiciones especiales">
+              </div>
+            </div>
+
+            <br>
+
+            <button type="submit" class="btn agendar_button nunito">Enviar Cita</button>
           </form>
         </div>
       </section>
