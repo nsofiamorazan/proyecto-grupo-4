@@ -315,3 +315,33 @@
     border-radius: 30px;
     
 }
+
+#agendacitas{
+    background-color: #F6F4DB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.huella_citas{
+    color: #f15e2b;
+    font-size: 60px;
+    text-align: center;
+}
+
+.yeseva_citas{
+    color: #f15e2b;
+    font-size: 60px;
+    text-align: center;
+}
+
+#fondo_principalservicios{
+    background-image: url("../img/fondo_citas.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
